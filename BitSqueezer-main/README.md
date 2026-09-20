@@ -65,8 +65,3 @@ For a file with `n` bytes and `k` distinct byte values (`k ≤ 256`):
 | `Huffman.*` | Tree building, bit packing, header handling, and decoding |
 | `Node.*` | Huffman-tree node representation |
 
-## Resume-ready description
-
-- Built a C++ command-line file compressor using Huffman coding to losslessly encode and restore arbitrary binary files.
-- Implemented deterministic Huffman tree construction with byte-frequency analysis and a min-priority queue, plus a self-describing compressed-file header for standalone decompression.
-- Optimized memory use with streaming binary I/O and bit-level packing; achieving O(n + k log k) compression time.
